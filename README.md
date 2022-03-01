@@ -10,7 +10,7 @@ Apart from being loaded this module does not do anything useful.
 
 In order to load this module (and evaluate the function it exports), enter the following code into the right-hand side(!) of the Web IDE and upload it to the emulator or a real device:
 
-```
+```javascript
 let loadedModule = require('https://raw.githubusercontent.com/rozek/banglejs-2-example-module/main/module.js');
 
 let theAnswer = loadedModule.getAnswer();
